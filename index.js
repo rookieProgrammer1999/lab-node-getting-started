@@ -21,12 +21,16 @@ class SortedList {
     else return this.items[0];
   }
   avg() {
+    if (this.length == 0) throw new Error('EmptySortedList');
+    else return this.items.reduce((a, b) => a + b) / this.length
+
 
 
   }
 
   sum() {
-
+    if (this.length == 0) return 0;
+    else return this.items.reduce((a, b) => a + b)
   }
 
 };
