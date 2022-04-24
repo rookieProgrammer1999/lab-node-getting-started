@@ -82,7 +82,7 @@ The `test` folder contains all the tests we will execute with Mocha.
 
 ### Running the tests
 
-Running our tests with Mocha is super easy; you just have to run `npm test`. `[try using only mocha if "npm test doesn't work"]`
+Running our tests with Mocha is super easy; you just have to run `npm test`. `[try using only mocha if "npm test" doesn't work]`
 
 <!-- Before you run this command, make sure you navigate to the `starter-code` directory. -->
 
