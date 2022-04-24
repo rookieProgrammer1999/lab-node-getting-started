@@ -8,7 +8,7 @@ class SortedList {
     // this.length = this.items.length;
     this.items.sort((a, b) => a - b);
   }
-  get() {
+  get(index) {
     if (index < this.length) return this.items[index]
     else throw new Error('OutOfBounds');
   }
